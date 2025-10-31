@@ -94,6 +94,7 @@ body {
     height: 110px;
 
     padding: 2rem;
+    margin: 0 auto;
 
     background-color: var(--light-navy);
 
