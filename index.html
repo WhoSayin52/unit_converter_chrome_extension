@@ -1,8 +1,38 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <script src="index.js"></script>
-    </body>
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="flex-col input-container">
+        <h1 class="title">Metric/Imperial Unit Conversion</h1>
+        <input type="text" class="input-field" placeholder="0">
+        <button class="input-button">Convert</button>
+    </div>
+
+    <div class="flex-col output-container">
+        <div id="length" class="output-card">
+            <h2 class="unit">Length (Meter/Feet)</h2>
+            <p class="conversion"></p>
+        </div>
+        <div id="volume" class="output-card">
+            <h2 class="unit">Volume (Liters/Gallons)</h2>
+            <p class="conversion"></p>
+        </div>
+        <div id="mass" class="output-card">
+            <h2 class="unit">Mass (Kilograms/Pounds)</h2>
+            <p class="conversion"></p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
 </html>
