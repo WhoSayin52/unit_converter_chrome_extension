@@ -13,22 +13,22 @@
 <body>
     <div class="flex-col input-container">
         <h1 class="title">Metric/Imperial Unit Conversion</h1>
-        <input type="text" class="input-field" placeholder="0">
+        <input type="text" class="input-field">
         <button class="input-button">Convert</button>
     </div>
 
     <div class="flex-col output-container">
-        <div id="length" class="output-card">
+        <div class="output-card">
             <h2 class="unit">Length (Meter/Feet)</h2>
-            <p class="conversion"></p>
+            <p id="length-output" class="output"></p>
         </div>
-        <div id="volume" class="output-card">
+        <div class="output-card">
             <h2 class="unit">Volume (Liters/Gallons)</h2>
-            <p class="conversion"></p>
+            <p id="volume-output" class="output"></p>
         </div>
-        <div id="mass" class="output-card">
+        <div class="output-card">
             <h2 class="unit">Mass (Kilograms/Pounds)</h2>
-            <p class="conversion"></p>
+            <p id="mass-output" class="output"></p>
         </div>
     </div>
 

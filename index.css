@@ -45,8 +45,8 @@ body {
 }
 
 .input-field {
-    width: 120px;
-    height: 7rem;
+    width: 400px;
+    height: 5rem;
 
     margin: 1.625rem 0;
 
@@ -56,7 +56,7 @@ body {
     background-color: var(--dark-purple);
 
     text-align: center;
-    font-size: 3.4rem;
+    font-size: 3rem;
     font-weight: 800;
     color: var(--white);
 }
@@ -107,6 +107,6 @@ body {
     color: var(--light-purple);
 }
 
-.conversion {
+.output {
     color: var(--white);
 }
